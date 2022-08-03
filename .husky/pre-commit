@@ -2,7 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 git fetch origin
-if [ git branch --no-merged | grep -c "origin/development" ]
+if [ git branch -r --no-merged | grep -c "origin/development" ]
 then
     exit 1
 fi
