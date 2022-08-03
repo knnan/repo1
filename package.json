@@ -1,0 +1,24 @@
+{
+  "name": "repo1",
+  "version": "1.0.0",
+  "description": "This is a Test repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knnan/repo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knnan/repo1/issues"
+  },
+  "homepage": "https://github.com/knnan/repo1#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
